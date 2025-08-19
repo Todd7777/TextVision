@@ -1,0 +1,9 @@
+Flask==2.3.3
+boto3==1.34.0
+pdf2image==1.17.0
+Pillow==10.0.0
+python-dotenv==1.0.0
+pandas==2.1.0
+openpyxl==3.1.2
+python-magic==0.4.27
+Werkzeug==2.3.7

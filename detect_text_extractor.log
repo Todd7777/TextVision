@@ -1,0 +1,4 @@
+2025-08-19 17:00:14,310 - botocore.credentials - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-08-19 17:00:14,348 - __main__ - INFO - Extracting text from: /Users/ttt/Downloads/1948 copy.pdf
+2025-08-19 17:00:15,180 - __main__ - ERROR - Error extracting text: An error occurred (UnsupportedDocumentException) when calling the DetectDocumentText operation: Request has unsupported document format
+2025-08-19 17:00:15,180 - __main__ - ERROR - Failed to extract text from the PDF

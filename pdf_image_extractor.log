@@ -1,0 +1,36 @@
+2025-08-19 17:02:06,167 - botocore.credentials - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-08-19 17:02:06,206 - __main__ - INFO - Processing PDF: /Users/ttt/Downloads/1948 copy.pdf
+2025-08-19 17:02:06,206 - __main__ - INFO - Converting PDF to images (DPI: 400)...
+2025-08-19 17:02:07,471 - __main__ - INFO - Converted 2 pages to images
+2025-08-19 17:02:07,471 - __main__ - INFO - Processing page 1/2
+2025-08-19 17:02:12,515 - __main__ - INFO - Processing page 2/2
+2025-08-19 17:02:16,319 - __main__ - INFO - Saved table to output/table_1.csv
+2025-08-19 17:02:16,320 - __main__ - INFO - Saved table to output/table_2.csv
+2025-08-19 17:02:16,320 - __main__ - INFO - Successfully extracted 2 tables to output
+2025-08-19 17:03:21,059 - botocore.credentials - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-08-19 17:03:21,096 - __main__ - INFO - Processing PDF: /Users/ttt/Downloads/1948 copy.pdf
+2025-08-19 17:03:21,096 - __main__ - INFO - Converting PDF to images (DPI: 400)...
+2025-08-19 17:03:21,475 - __main__ - INFO - Converted 2 pages to images
+2025-08-19 17:03:21,475 - __main__ - INFO - Processing page 1/2
+2025-08-19 17:03:26,596 - __main__ - INFO - Processing page 2/2
+2025-08-19 17:03:30,342 - __main__ - INFO - Saved table to output/table_1.csv
+2025-08-19 17:03:30,343 - __main__ - INFO - Saved table to output/table_2.csv
+2025-08-19 17:03:30,343 - __main__ - INFO - Successfully extracted 2 tables to output
+2025-08-19 17:05:28,097 - botocore.credentials - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-08-19 17:05:28,158 - __main__ - INFO - Processing PDF: /Users/ttt/Downloads/1948 copy.pdf
+2025-08-19 17:05:28,159 - __main__ - INFO - Converting PDF to images (DPI: 400)...
+2025-08-19 17:05:28,989 - __main__ - INFO - Converted 2 pages to images
+2025-08-19 17:05:28,990 - __main__ - INFO - Processing page 1/2
+2025-08-19 17:05:33,743 - __main__ - INFO - Processing page 2/2
+2025-08-19 17:05:38,099 - __main__ - INFO - Saved table to output/table_1.csv
+2025-08-19 17:05:38,100 - __main__ - INFO - Saved table to output/table_2.csv
+2025-08-19 17:05:38,100 - __main__ - INFO - Successfully extracted 2 tables to output
+2025-08-19 17:10:49,816 - botocore.credentials - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-08-19 17:10:49,877 - __main__ - INFO - Processing PDF: /Users/ttt/Downloads/1948 copy.pdf
+2025-08-19 17:10:49,877 - __main__ - INFO - Converting PDF to images (DPI: 400)...
+2025-08-19 17:10:50,282 - __main__ - INFO - Converted 2 pages to images
+2025-08-19 17:10:50,282 - __main__ - INFO - Processing page 1/2
+2025-08-19 17:10:55,038 - __main__ - INFO - Processing page 2/2
+2025-08-19 17:10:59,017 - __main__ - INFO - Saved table to output/table_1.csv and output/table_1.xlsx
+2025-08-19 17:10:59,028 - __main__ - INFO - Saved table to output/table_2.csv and output/table_2.xlsx
+2025-08-19 17:10:59,028 - __main__ - INFO - Successfully extracted 2 tables to output

@@ -1,0 +1,53 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="max-w-2xl mx-auto bg-white rounded-lg shadow-md p-8">
+    <div class="text-center mb-8">
+        <h2 class="text-2xl font-semibold text-gray-800">Upload PDF File</h2>
+        <p class="text-gray-600 mt-2">Upload a PDF file to extract tables using AWS Textract</p>
+    </div>
+    
+    <form action="{{ url_for('upload_file') }}" method="post" enctype="multipart/form-data" class="space-y-6">
+        <div class="flex items-center justify-center w-full">
+            <label for="file-upload" class="flex flex-col items-center justify-center w-full h-64 border-2 border-gray-300 border-dashed rounded-lg cursor-pointer bg-gray-50 hover:bg-gray-100">
+                <div class="flex flex-col items-center justify-center pt-5 pb-6">
+                    <svg class="w-10 h-10 mb-3 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M15 13l-3-3m0 0l-3 3m3-3v12"></path>
+                    </svg>
+                    <p class="mb-2 text-sm text-gray-500">
+                        <span class="font-semibold">Click to upload</span> or drag and drop
+                    </p>
+                    <p class="text-xs text-gray-500">PDF (MAX. 16MB)</p>
+                </div>
+                <input id="file-upload" name="file" type="file" class="hidden" accept=".pdf" required />
+            </label>
+        </div>
+        
+        <div class="text-center">
+            <button type="submit" class="px-6 py-3 bg-blue-600 text-white font-medium rounded-lg hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 transition-colors">
+                Process PDF
+            </button>
+        </div>
+    </form>
+    
+    <div class="mt-8 p-4 bg-yellow-50 rounded-lg">
+        <h3 class="font-medium text-yellow-800">Note:</h3>
+        <p class="text-sm text-yellow-700 mt-1">
+            This application uses AWS Textract for table extraction. For best results, ensure your PDF has clear, well-formatted tables.
+        </p>
+    </div>
+</div>
+
+<script>
+document.getElementById('file-upload').addEventListener('change', function(e) {
+    const fileName = e.target.files[0]?.name || 'No file chosen';
+    const label = document.querySelector('label[for="file-upload"]');
+    if (label) {
+        const textElement = label.querySelector('p:first-of-type');
+        if (textElement) {
+            textElement.textContent = fileName;
+        }
+    }
+});
+</script>
+{% endblock %}

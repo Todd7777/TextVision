@@ -1,0 +1,9 @@
+2025-08-19 16:57:46,617 - botocore.credentials - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-08-19 16:57:46,713 - __main__ - INFO - Extracting tables from: /Users/ttt/Downloads/1948 copy.pdf
+2025-08-19 16:57:47,090 - __main__ - INFO - Uploaded /Users/ttt/Downloads/1948 copy.pdf to s3://textract-pdf-processing-992708951960/1948 copy.pdf
+2025-08-19 16:57:47,508 - __main__ - INFO - Started document analysis job: c02806d5c1b79c7a12737aaf5ac63a4f19f6b077027a2323956cb0a21f0fc1ae
+2025-08-19 16:57:47,508 - __main__ - INFO - Waiting for Textract job to complete...
+2025-08-19 16:57:57,968 - __main__ - INFO - Textract job completed successfully
+2025-08-19 16:57:58,004 - __main__ - WARNING - No tables found in the document
+2025-08-19 16:57:58,077 - __main__ - INFO - Deleted s3://textract-pdf-processing-992708951960/1948 copy.pdf
+2025-08-19 16:57:58,078 - __main__ - ERROR - No tables were extracted from the PDF

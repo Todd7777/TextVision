@@ -1,0 +1,4 @@
+2025-08-19 16:23:01,366 - botocore.credentials - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-08-19 16:23:01,416 - __main__ - INFO - Extracting tables from: /Users/ttt/Downloads/1948 copy.pdf
+2025-08-19 16:23:02,286 - __main__ - ERROR - Error extracting tables: An error occurred (UnsupportedDocumentException) when calling the AnalyzeDocument operation: Request has unsupported document format
+2025-08-19 16:23:02,286 - __main__ - ERROR - No tables were extracted from the PDF
